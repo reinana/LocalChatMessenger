@@ -34,7 +34,9 @@ while True:
          data_str = data.decode("utf-8")
          print("Received " + data_str)
          if data:
-               message = input('メッセージを入力> ')
+               # message = input('メッセージを入力> ')
+               message = fake.text()
+               print(message)
                # 現在のクライアントにメッセージを送り返す
                response = "From " + name + ": "+ message
                connection.sendall(response.encode())
