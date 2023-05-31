@@ -1,0 +1,5 @@
+# LocalChatMessenger
+
+Recursionのプロジェクト「Video Compressor」の課題です。
+clientはinputでユーザーからの入力を受け取り、serverに送ります。
+serverはFakerを使ってダミーデータをclientへ返信します。
